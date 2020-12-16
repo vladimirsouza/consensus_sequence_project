@@ -1,0 +1,25 @@
+Package: myConsensus
+Data: 16 Dec, 2020
+Title: Conpute consensus sequences form raw data
+Version: 1.0
+Authors@R: c( person("Vladimir", "Souza", role = c("aut","cre"), email = "vladimirbcs@gmail.com"),
+                     person("Mark", "Robinson", role = "aut", email = "mark.robinson@imls.uzh.ch") )
+Description: This is just a draft to show some functions that were created during the project.
+Depends: R (>= 3.4.4)
+Imports: 
+  Rsamtools (>= 1.28.0),
+  GenomicAlignments (>= 1.12.2),
+  Biostrings (>= 2.44.2),
+  R.utils (>= 2.7.0),
+  stringi (>= 1.2.4),
+  msa (>= 1.16.0),
+  foreach (>= 1.5.0),
+  iterators (>= 1.0.12),
+  doParallel (>= 1.0.15),
+  dplyr (>= 1.0.2),
+  e1071 (>= 1.7.3),
+  randomForest (>= 4.6.14)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
